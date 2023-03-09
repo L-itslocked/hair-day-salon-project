@@ -267,4 +267,21 @@ button {
     display: block;
     margin: 0 auto;
   }
+  .tutorials img,
+  .tutorials-videos {
+    display: block;
+    margin: 1rem auto;
+    overflow: hidden;
+  }
+  .crop-img {
+    display: block;
+    margin-top: 1rem !important;
+  }
+  .tutorials-left img,
+  .tutorials-right img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    align-content: center !important;
+  }
 }
