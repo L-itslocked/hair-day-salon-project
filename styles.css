@@ -61,7 +61,6 @@ button {
   color: #d0604c;
   background-color: #f2e0d2;
   border: solid 1px #d0604c;
-  /*transform: rotate3d(360deg);*/
 }
 .navbar-center {
   text-align: center;
@@ -201,7 +200,14 @@ button {
 .hover-img:hover figcaption {
   opacity: 1;
 }
-
+figcaption > a {
+  text-decoration: none;
+  color: white;
+}
+figcaption > a:hover {
+  color: white;
+  cursor: pointer;
+}
 .back-to-top-link {
   display: inline-block;
   text-decoration: none;
@@ -233,6 +239,12 @@ button {
   background-color: #faefed;
   border-radius: 2rem;
   padding: 0.5rem 2rem;
+}
+#services-disclaimer {
+  display: block;
+  margin: 3rem auto !important;
+  font-size: 10px;
+  padding: 0 6rem;
 }
 #appts-button {
   margin: 0 auto !important;
