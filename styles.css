@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 600px;
+}
+header,
+nav {
+  background-color: gray;
+  opacity: ;
+}
+header > img {
+  padding: 10rem;
+  display: block;
+  margin: 0 auto;
+  width: 20rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  padding: 2rem;
+}
+nav a .navbar-toggler {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: #f2e0d2;
+  transition: 2s;
+  font-size: 2.3rem;
+}
+video {
+  display: inline-flex;
+  flex: 1;
+  margin: 100px;
+}
+.section-one,
+.section-two,
+.services-bookappointment {
+  display: flex;
+  flex: 1;
+  margin: 3rem 5rem;
+}
+
+footer img {
+  margin: 0 5rem;
+  width: 4rem;
+  height: auto;
+}
+footer {
+  display: flex;
+  font-size: 0.75rem;
+}
+footer p {
+  margin: 0.75rem;
+}
+button {
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: none;
+  color: #d0604c;
+  background-color: #f2e0d2;
+  border: solid 1px #d0604c;
+  /*transform: rotate3d(360deg);*/
+}
+.appointment-button:hover {
+  transition: 400ms ease-in-out;
+  background-color: #d0604c;
+  color: #f2e0d2;
+  border: solid 1px #f2e0d2;
+}
+.section-one h1 {
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.section-two h6 {
+  font-size: 1rem;
+}
+.index-services:hover {
+  background-color: gray;
+  opacity: 35%;
+  visibility: visible;
+  color: #d0604c;
+}
+
+.homepage-top-middle-img {
+  margin-top: 0.5rem;
+}
+
+.homepage-images {
+  display: inline-flex;
+  flex: 1;
+  justify-content: center;
+}
+.homepage-images article {
+  padding: 0 1.5rem;
+}
+.homepage-images img {
+  width: 30rem;
+  height: auto;
+  border-radius: 2rem;
+  padding: 0 -20rem;
+}
+.tutorials-videos {
+  display: inline-flex;
+  margin: 3rem 6.5rem;
+}
+.tutorials-right img {
+  display: inline-flex;
+  width: 30rem;
+  padding-left: 2rem;
+  margin: 0 0 -4rem;
+}
+.tutorials-left img {
+  display: inline-flex;
+  width: 30rem;
+  padding-right: 2rem;
+}
+.embed-responsive-item > img {
+  margin: 5rem 0;
+}
+.crop-img {
+  margin-top: -20rem !important;
+}
+.rotate-image:hover {
+  transform: rotateY(360deg);
+  transition: 3s;
+}
+.back-to-top-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  color: white;
+  padding: 0.25rem;
+  margin-inline-start: 80vw;
+}
+
+#appts-button {
+  margin: 0 auto !important;
+  display: block;
+  background-color: #d0604c;
+}
+#appts-choice {
+  margin: 1rem 0 1rem 2rem;
+}
+#appts-img {
+  margin: -1rem auto;
+  width: fill;
+  height: auto;
+}
+#booking-form {
+  display: block;
+  margin: 10rem 4rem;
+  background-color: #4cbcd0;
+  border-radius: 1rem 10rem 1rem 1rem;
+  padding: 1rem;
+}
+#booking-form input {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+#promotional {
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 7rem;
+  background-color: #4cbcd0;
+  border-radius: 4rem 0 4rem;
+  box-shadow: 10px 7px 5px #d0604c;
+  transform: rotate(360deg);
+  transition: 1s ease-in;
+}
+
+.hover-img {
+  color: #f2e0d2;
+  background-color: #000;
+  display: inline-block;
+  margin: 8px;
+  max-width: 320px;
+  min-width: 240px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.hover-img * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.hover-img::before,
+.hover-img::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  transition: all 0.3s ease;
+  transform: scaleY(2);
+}
+
+.hover-img img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.hover-img figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  transition-delay: 0.1s;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.hover-img:hover::before,
+.hover-img:hover::after {
+  transform: scale(1);
+}
+
+.hover-img:hover img {
+  opacity: 45%;
+}
+
+.hover-img:hover figcaption {
+  opacity: 1;
+}
+
+.services {
+  margin: 1rem 5rem;
+  display: flex;
+  flex: 1;
+}
