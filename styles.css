@@ -7,8 +7,7 @@ body {
 }
 header,
 nav {
-  background-color: gray;
-  opacity: ;
+  background-color: black;
 }
 header > img {
   padding: 10rem;
@@ -16,18 +15,13 @@ header > img {
   margin: 0 auto;
   width: 20rem;
 }
-
 nav ul {
   list-style: none;
-  text-align: center;
+  text-align: center !important;
 }
 nav li {
   display: inline-block;
   padding: 2rem;
-}
-nav a .navbar-toggler {
-  text-decoration: none;
-  color: white;
 }
 nav a:hover {
   color: #f2e0d2;
@@ -68,6 +62,11 @@ button {
   background-color: #f2e0d2;
   border: solid 1px #d0604c;
   /*transform: rotate3d(360deg);*/
+}
+.navbar-center {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
 }
 .appointment-button:hover {
   transition: 400ms ease-in-out;
@@ -133,57 +132,6 @@ button {
   transform: rotateY(360deg);
   transition: 3s;
 }
-.back-to-top-link {
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1rem;
-  text-align: center;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 0.5rem;
-  background-color: #000;
-  color: white;
-  padding: 0.25rem;
-  margin-inline-start: 80vw;
-}
-
-#appts-button {
-  margin: 0 auto !important;
-  display: block;
-  background-color: #d0604c;
-}
-#appts-choice {
-  margin: 1rem 0 1rem 2rem;
-}
-#appts-img {
-  margin: -1rem auto;
-  width: fill;
-  height: auto;
-}
-#booking-form {
-  display: block;
-  margin: 10rem 4rem;
-  background-color: #4cbcd0;
-  border-radius: 1rem 10rem 1rem 1rem;
-  padding: 1rem;
-}
-#booking-form input {
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  margin: 0.5rem;
-}
-
-#promotional {
-  display: block;
-  margin: 0 auto;
-  padding: 2rem 7rem;
-  background-color: #4cbcd0;
-  border-radius: 4rem 0 4rem;
-  box-shadow: 10px 7px 5px #d0604c;
-  transform: rotate(360deg);
-  transition: 1s ease-in;
-}
-
 .hover-img {
   color: #f2e0d2;
   background-color: #000;
@@ -254,8 +202,69 @@ button {
   opacity: 1;
 }
 
-.services {
-  margin: 1rem 5rem;
-  display: flex;
-  flex: 1;
+.back-to-top-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: #000;
+  color: white;
+  padding: 0.25rem;
+  margin-inline-start: 80vw;
+}
+
+#appts-button {
+  margin: 0 auto !important;
+  display: block;
+  background-color: #d0604c;
+}
+#appts-choice {
+  margin: 1rem 0 1rem 2rem;
+}
+#appts-img {
+  margin: -1rem auto;
+  width: fill;
+  height: auto;
+}
+#booking-form {
+  display: block;
+  margin: 10rem 4rem;
+  background-color: #4cbcd0;
+  border-radius: 1rem 10rem 1rem 1rem;
+  padding: 1rem;
+}
+#booking-form input {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+#promotional {
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 7rem;
+  background-color: #4cbcd0;
+  border-radius: 4rem 0 4rem;
+  box-shadow: 10px 7px 5px #d0604c;
+  transform: rotate(360deg);
+  transition: 1s ease-in;
+}
+@media (max-width: 767px) {
+  body {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  form {
+    margin: 1rem 0 0 0 !important;
+    display: block;
+    padding: 6rem !important;
+  }
+  .homepage-images {
+    display: block;
+    margin: 0 auto;
+  }
 }
