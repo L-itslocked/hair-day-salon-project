@@ -84,9 +84,9 @@ aside p {
   display: block;
 }
 #tutorial-nails {
-  display:block;
-  margin: -52.29rem 0 20rem 23.5rem; 
-  padding: 22.20rem 2rem;
+  display: block;
+  margin: -52.4rem 0 20rem 23.5rem;
+  padding: 22.2rem 2rem;
 }
 
 .tutorial-hair-img {
@@ -94,8 +94,8 @@ aside p {
   display: block;
 }
 .tutorial-nail-img {
-display:block;
-margin: -19rem auto;
+  display: block;
+  margin: -19rem auto;
 }
 .section-one,
 .section-two,
@@ -335,6 +335,25 @@ margin: -19rem auto;
   transform: rotate(360deg);
   transition: 1s ease-in;
 }
+@media (max-width: 1524px) {
+  aside {
+    content-visibility: hidden;
+  }
+   #tutorials-h1 {
+    margin: 4rem 12rem 1rem 12rem;
+    transform: scale(150%);
+    transition: 5s;
+  }
+  .tutorial-hair-img {
+    margin: -5rem auto;
+    display: block;
+    width: 560px;
+  }
+  .tutorial-nail-img {
+    margin: 6rem auto;
+    display: block;
+  }
+}
 @media (max-width: 767px) {
   body {
     text-align: center;
@@ -376,6 +395,11 @@ margin: -19rem auto;
     background-color: #faefed;
     border-radius: 2rem;
   }
+  #tutorials-h1 {
+    margin: 4rem 12rem 1rem 12rem;
+    transform: scale(150%);
+    transition: 5s;
+  }
   .service {
     display: block;
     margin: 0 auto;
@@ -387,14 +411,13 @@ margin: -19rem auto;
     text-align: center;
     opacity: 80%;
   }
-  #tutorials-h1 {
-    margin: 4rem 12rem 1rem 12rem;
-    transform: scale(150%);
-    transition: 5s;
+  .tutorial-hair-img {
+    margin: -5rem auto;
+    display: block;
+    width: 560px;
   }
-  .tutorial-hair-img, .tutorial-nail-img {
-    margin: -19rem auto; 
-    display:block;
-    width:560px;
+  .tutorial-nail-img {
+    margin: 6rem auto;
+    display: block;
   }
 }
