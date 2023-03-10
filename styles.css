@@ -339,7 +339,7 @@ aside p {
   aside {
     content-visibility: hidden;
   }
-   #tutorials-h1 {
+  #tutorials-h1 {
     margin: 4rem 12rem 1rem 12rem;
     transform: scale(150%);
     transition: 5s;
