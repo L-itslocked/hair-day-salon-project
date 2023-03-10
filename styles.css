@@ -264,6 +264,12 @@ aside p {
   margin-left: 10rem;
 }
 
+#code-credit {
+  font-size: 9px;
+  margin: 2rem -7.25rem;
+  display: block;
+}
+
 #tutorials-h1 {
   text-align: center;
   margin: 4rem 28rem 1rem 28rem;
