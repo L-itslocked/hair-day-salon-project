@@ -4,6 +4,7 @@
 }
 body {
   min-width: 600px;
+  font-family: "Playfair Display", serif;
 }
 header,
 nav {
@@ -33,13 +34,6 @@ video {
   flex: 1;
   margin: 100px;
 }
-.section-one,
-.section-two,
-.services-bookappointment {
-  display: flex;
-  flex: 1;
-  margin: 3rem 5rem;
-}
 
 footer img {
   margin: 0 5rem;
@@ -61,6 +55,54 @@ button {
   color: #d0604c;
   background-color: #f2e0d2;
   border: solid 1px #d0604c;
+}
+figcaption > a {
+  text-decoration: none;
+  color: white;
+}
+figcaption > a:hover {
+  color: white;
+  cursor: pointer;
+}
+aside p {
+  display: block;
+  margin: -25.75rem 0 20rem 23.5rem;
+  padding: 0.55rem 2rem;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  letter-spacing: 1rem;
+  background-color: #d0604c;
+  color: #faefed;
+}
+#tutorial-hair {
+  margin-left: 68rem;
+  margin-top: -23.5rem;
+  padding: 3.75rem 2rem;
+  display: block;
+}
+#tutorial-nails {
+  display:block;
+  margin: -52.29rem 0 20rem 23.5rem; 
+  padding: 22.20rem 2rem;
+}
+
+.tutorial-hair-img {
+  margin: -19rem auto;
+  display: block;
+}
+.tutorial-nail-img {
+display:block;
+margin: -19rem auto;
+}
+.section-one,
+.section-two,
+.services-bookappointment {
+  display: flex;
+  flex: 1;
+  margin: 3rem 5rem;
 }
 .navbar-center {
   text-align: center;
@@ -200,14 +242,6 @@ button {
 .hover-img:hover figcaption {
   opacity: 1;
 }
-figcaption > a {
-  text-decoration: none;
-  color: white;
-}
-figcaption > a:hover {
-  color: white;
-  cursor: pointer;
-}
 .back-to-top-link {
   display: inline-block;
   text-decoration: none;
@@ -228,6 +262,25 @@ figcaption > a:hover {
 .price {
   text-align: right;
   margin-left: 10rem;
+}
+
+#tutorials-h1 {
+  text-align: center;
+  margin: 4rem 28rem 1rem 28rem;
+  transform: scale(200%);
+  transition: 5s;
+  color: #faefed;
+  background-color: #4cbcd0;
+  border-radius: 3rem 0 3rem 0;
+  padding: 1rem;
+}
+
+#carouselExample {
+  margin: 0 auto;
+  display: block;
+  width: 560px;
+  height: 315px;
+  margin: 6rem auto;
 }
 #hair,
 #nails,
@@ -333,5 +386,15 @@ figcaption > a:hover {
     margin: 0.2rem 2rem 2rem 0;
     text-align: center;
     opacity: 80%;
+  }
+  #tutorials-h1 {
+    margin: 4rem 12rem 1rem 12rem;
+    transform: scale(150%);
+    transition: 5s;
+  }
+  .tutorial-hair-img, .tutorial-nail-img {
+    margin: -19rem auto; 
+    display:block;
+    width:560px;
   }
 }
