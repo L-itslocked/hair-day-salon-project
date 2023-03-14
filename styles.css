@@ -342,6 +342,9 @@ aside p {
   transition: 1s ease-in;
 }
 @media (max-width: 1524px) {
+  body {
+    width: 100%;
+  }
   aside {
     content-visibility: hidden;
   }
@@ -365,6 +368,7 @@ aside p {
     text-align: center;
     display: block;
     margin: 0 auto;
+    width: 100%;
   }
   form {
     margin: 1rem 0 0 0 !important;
