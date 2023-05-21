@@ -10,11 +10,12 @@ header,
 nav {
   background-color: black;
 }
-header > img {
-  padding: 10rem;
+
+#top img {
   display: block;
   margin: 0 auto;
-  width: 20rem;
+  padding: 5rem;
+  width: 35%;
 }
 nav ul {
   list-style: none;
