@@ -77,6 +77,16 @@ aside p {
   background-color: #d0604c;
   color: #faefed;
 }
+footer i {
+  font-size: 20px;
+  margin: 10px 7px 0 -3px;
+  color: #4cbcd0;
+}
+footer i:hover {
+  color: #d0604c;
+  font-size: 22px;
+  transition: ease-in-out 400ms;
+}
 #tutorial-hair {
   margin-left: 68rem;
   margin-top: -23.5rem;
@@ -346,7 +356,7 @@ aside p {
     width: 100%;
   }
   aside {
-    content-visibility: hidden;
+    visibility: hidden;
   }
   #tutorials-h1 {
     margin: 4rem 12rem 1rem 12rem;
@@ -374,6 +384,9 @@ aside p {
     margin: 1rem 0 0 0 !important;
     display: block;
     padding: 6rem !important;
+  }
+  aside {
+    visibility: hidden;
   }
   .homepage-images {
     display: block;
